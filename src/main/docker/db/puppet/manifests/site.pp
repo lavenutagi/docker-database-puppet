@@ -55,7 +55,7 @@ class oradb_12c {
     oradb::installdb{ '12.1.0.2_Linux-x86-64':
       version                   => '12.1.0.2',
       file                      => 'linuxamd64_12102_database_se2',
-      database_type             => 'SE',
+      database_type             => 'SE2',
       oracle_base               => '/oracle',
       oracle_home               => '/oracle/product/12.1/db',
       user_base_dir             => '/home',
